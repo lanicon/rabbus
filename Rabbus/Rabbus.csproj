@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Gino Messmer</Authors>
+    <Company>Gino Messmer</Company>
+    <Description>A simple drop-in event bus solution for .NET Core built on top of RabbitMQ and MediatR</Description>
+    <PackageProjectUrl>https://github.com/ginomessmer/rabbus</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ginomessmer/rabbus</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
